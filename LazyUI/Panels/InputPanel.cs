@@ -196,27 +196,31 @@ public class InputPanel : IRenderable, IHasDirtyState
         _dirty = true;
     }
 
-    public int GetPanelHeight()
+    public int GetHeight()
     {
-        var innerWidth = Math.Max(1, Console.WindowWidth - 2);
-        var visibleLength = 2 + _userInput.Length + 1;
+        var innerWidth = Math.Max(1, Console.WindowWidth);
+        var visibleLength = _userInput.Length + 1;
         var lines = (int)Math.Ceiling((double)visibleLength / innerWidth);
-        return Math.Max(1, lines) + 2;
+
+        return Math.Max(1, lines);
     }
 
     private (int start, int end) GetSelectionRange()
     {
-        if (_selectionAnchor == null)
-            return (-1, -1);
+        if (_selectionAnchor == null) return (-1, -1);
+
         var a = _selectionAnchor.Value;
         var b = _cursorPosition;
+
         return (Math.Min(a, b), Math.Max(a, b));
     }
 
     private void DeleteSelection()
     {
         var (start, end) = GetSelectionRange();
+
         if (start < 0) return;
+
         _userInput = _userInput[..start] + _userInput[end..];
         _cursorPosition = start;
         _selectionAnchor = null;
@@ -231,25 +235,28 @@ public class InputPanel : IRenderable, IHasDirtyState
 
     private string BuildInputMarkup()
     {
-        var sb = new StringBuilder("[blue]>[/] ");
+        var sb = new StringBuilder();
         var (selStart, selEnd) = GetSelectionRange();
 
+        sb.Append("[blue]> ");
         for (int i = 0; i <= _userInput.Length; i++)
         {
             bool isCursor = i == _cursorPosition;
             bool isSelected = selStart >= 0 && i >= selStart && i < selEnd;
+
             char c = i < _userInput.Length ? _userInput[i] : ' ';
-            var escaped = Markup.Escape(c.ToString());
 
             if (isCursor && isSelected)
-                sb.Append($"[black on white]{escaped}[/]");
+                sb.Append($"[black on white]{c}[/]");
             else if (isCursor)
-                sb.Append($"[invert]{escaped}[/]");
+                sb.Append($"[black on white]{c}[/]");
             else if (isSelected)
-                sb.Append($"[white on blue]{escaped}[/]");
+                sb.Append($"[white on blue]{c}[/]");
             else if (i < _userInput.Length)
-                sb.Append(escaped);
+                sb.Append($"[white on black]{c}[/]");
         }
+
+        sb.Append("[/]");
 
         return sb.ToString();
     }

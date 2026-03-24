@@ -11,8 +11,10 @@ public class OutputPanel : IRenderable, IHasDirtyState
     private readonly CapturingConsole _console;
     private int _scrollOffset; // 0 = bottom (auto-scroll), positive = scrolled up
     private int _lastCapturedCount;
+    private int _lastRenderedScrollOffset;
 
-    public bool IsDirty => _console.GetCaptured().Count != _lastCapturedCount;
+    public bool IsDirty => _console.GetCaptured().Count != _lastCapturedCount
+                        || _scrollOffset != _lastRenderedScrollOffset;
 
     public OutputPanel(CapturingConsole console)
     {
@@ -84,6 +86,8 @@ public class OutputPanel : IRenderable, IHasDirtyState
             if (_scrollOffset > 0)
                 scrollIndicator = $" [dim](+{_scrollOffset} below)[/]";
         }
+
+        _lastRenderedScrollOffset = _scrollOffset;
 
         var panel = new Panel(content);
         panel.Expand();

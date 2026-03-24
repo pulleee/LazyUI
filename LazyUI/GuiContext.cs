@@ -15,6 +15,7 @@ public class GuiContext
     private int _lastWidth;
     private int _lastHeight;
 
+
     private IRenderable? _contentPanel;
 
     private readonly GuiCommandDispatcher _dispatcher;
@@ -79,6 +80,8 @@ public class GuiContext
         {
             _ = Task.Run(() =>
             {
+                var lastInputSize = _inputPanel.GetHeight();
+
                 while (true)
                 {
                     var key = Console.ReadKey(true);
@@ -99,6 +102,16 @@ public class GuiContext
                             break;
                         default:
                             _inputPanel.HandleKey(key);
+
+                            var inputSize = _inputPanel.GetHeight();
+
+                            // Resize if text wraps in input panel
+                            if(lastInputSize != inputSize)
+                            {
+                                _root[INPUT_NAME].Size(inputSize);
+                                lastInputSize = inputSize;
+                            }
+
                             break;
                     }
                 }
@@ -109,6 +122,7 @@ public class GuiContext
 
             // Force initial render
             AnsiConsole.Write(_root);
+            var lastInputHeight = _inputPanel.GetHeight();
 
             while (!_dispatcher.ExitRequested)
             {
@@ -143,7 +157,7 @@ public class GuiContext
             .SplitRows(
                 new Layout(CONTENT_NAME).Ratio(1),
                 new Layout(OUTPUT_NAME).Ratio(1),
-                new Layout(INPUT_NAME).Size(3));
+                new Layout(INPUT_NAME).Size(1));
 
         layout[CONTENT_NAME].Update(content);
         layout[OUTPUT_NAME].Update(output);
