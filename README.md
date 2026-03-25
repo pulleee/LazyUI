@@ -22,7 +22,7 @@ It uses a ContentPanel which can be populated by any IRenderable and sticks to o
 A hideable OutputPanel which displays dispatched cli commands and their output.
 A InputPanel which dispatches cli commands and implements basic hotkey and selection functionality.
 
-![Demo](Assets/demo.gif)
+![Demo](LazyUI/Assets/demo.gif)
 
 ### How does it work?
 
