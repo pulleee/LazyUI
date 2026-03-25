@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LazyUI.Sample": {
+      "commandName": "Project",
+      "commandLineArgs": "gui"
+    }
+  }
+}

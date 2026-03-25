@@ -7,13 +7,1067 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\figletfonts\1row.flf" />
+    <None Remove="Resources\figletfonts\3-d.flf" />
+    <None Remove="Resources\figletfonts\3d_diagonal.flf" />
+    <None Remove="Resources\figletfonts\3x5.flf" />
+    <None Remove="Resources\figletfonts\4max.flf" />
+    <None Remove="Resources\figletfonts\5lineoblique.flf" />
+    <None Remove="Resources\figletfonts\acrobatic.flf" />
+    <None Remove="Resources\figletfonts\alligator.flf" />
+    <None Remove="Resources\figletfonts\alligator2.flf" />
+    <None Remove="Resources\figletfonts\alligator3.flf" />
+    <None Remove="Resources\figletfonts\alpha.flf" />
+    <None Remove="Resources\figletfonts\alphabet.flf" />
+    <None Remove="Resources\figletfonts\amc3line.flf" />
+    <None Remove="Resources\figletfonts\amc3liv1.flf" />
+    <None Remove="Resources\figletfonts\amcaaa01.flf" />
+    <None Remove="Resources\figletfonts\amcneko.flf" />
+    <None Remove="Resources\figletfonts\amcrazo2.flf" />
+    <None Remove="Resources\figletfonts\amcrazor.flf" />
+    <None Remove="Resources\figletfonts\amcslash.flf" />
+    <None Remove="Resources\figletfonts\amcslder.flf" />
+    <None Remove="Resources\figletfonts\amcthin.flf" />
+    <None Remove="Resources\figletfonts\amctubes.flf" />
+    <None Remove="Resources\figletfonts\amcun1.flf" />
+    <None Remove="Resources\figletfonts\arrows.flf" />
+    <None Remove="Resources\figletfonts\ascii_new_roman.flf" />
+    <None Remove="Resources\figletfonts\avatar.flf" />
+    <None Remove="Resources\figletfonts\B1FF.flf" />
+    <None Remove="Resources\figletfonts\banner.flf" />
+    <None Remove="Resources\figletfonts\banner3-D.flf" />
+    <None Remove="Resources\figletfonts\banner3.flf" />
+    <None Remove="Resources\figletfonts\banner4.flf" />
+    <None Remove="Resources\figletfonts\barbwire.flf" />
+    <None Remove="Resources\figletfonts\basic.flf" />
+    <None Remove="Resources\figletfonts\bear.flf" />
+    <None Remove="Resources\figletfonts\bell.flf" />
+    <None Remove="Resources\figletfonts\benjamin.flf" />
+    <None Remove="Resources\figletfonts\big.flf" />
+    <None Remove="Resources\figletfonts\bigchief.flf" />
+    <None Remove="Resources\figletfonts\bigfig.flf" />
+    <None Remove="Resources\figletfonts\binary.flf" />
+    <None Remove="Resources\figletfonts\block.flf" />
+    <None Remove="Resources\figletfonts\blocks.flf" />
+    <None Remove="Resources\figletfonts\bolger.flf" />
+    <None Remove="Resources\figletfonts\braced.flf" />
+    <None Remove="Resources\figletfonts\bright.flf" />
+    <None Remove="Resources\figletfonts\broadway.flf" />
+    <None Remove="Resources\figletfonts\broadway_kb.flf" />
+    <None Remove="Resources\figletfonts\bubble.flf" />
+    <None Remove="Resources\figletfonts\bulbhead.flf" />
+    <None Remove="Resources\figletfonts\calgphy2.flf" />
+    <None Remove="Resources\figletfonts\caligraphy.flf" />
+    <None Remove="Resources\figletfonts\cards.flf" />
+    <None Remove="Resources\figletfonts\catwalk.flf" />
+    <None Remove="Resources\figletfonts\chiseled.flf" />
+    <None Remove="Resources\figletfonts\chunky.flf" />
+    <None Remove="Resources\figletfonts\coinstak.flf" />
+    <None Remove="Resources\figletfonts\cola.flf" />
+    <None Remove="Resources\figletfonts\colossal.flf" />
+    <None Remove="Resources\figletfonts\computer.flf" />
+    <None Remove="Resources\figletfonts\contessa.flf" />
+    <None Remove="Resources\figletfonts\contrast.flf" />
+    <None Remove="Resources\figletfonts\cosmic.flf" />
+    <None Remove="Resources\figletfonts\cosmike.flf" />
+    <None Remove="Resources\figletfonts\crawford.flf" />
+    <None Remove="Resources\figletfonts\crazy.flf" />
+    <None Remove="Resources\figletfonts\cricket.flf" />
+    <None Remove="Resources\figletfonts\cyberlarge.flf" />
+    <None Remove="Resources\figletfonts\cybermedium.flf" />
+    <None Remove="Resources\figletfonts\cybersmall.flf" />
+    <None Remove="Resources\figletfonts\cygnet.flf" />
+    <None Remove="Resources\figletfonts\DANC4.flf" />
+    <None Remove="Resources\figletfonts\dancingfont.flf" />
+    <None Remove="Resources\figletfonts\decimal.flf" />
+    <None Remove="Resources\figletfonts\defleppard.flf" />
+    <None Remove="Resources\figletfonts\diamond.flf" />
+    <None Remove="Resources\figletfonts\dietcola.flf" />
+    <None Remove="Resources\figletfonts\digital.flf" />
+    <None Remove="Resources\figletfonts\doh.flf" />
+    <None Remove="Resources\figletfonts\doom.flf" />
+    <None Remove="Resources\figletfonts\dosrebel.flf" />
+    <None Remove="Resources\figletfonts\dotmatrix.flf" />
+    <None Remove="Resources\figletfonts\double.flf" />
+    <None Remove="Resources\figletfonts\doubleshorts.flf" />
+    <None Remove="Resources\figletfonts\drpepper.flf" />
+    <None Remove="Resources\figletfonts\dwhistled.flf" />
+    <None Remove="Resources\figletfonts\eftichess.flf" />
+    <None Remove="Resources\figletfonts\eftifont.flf" />
+    <None Remove="Resources\figletfonts\eftipiti.flf" />
+    <None Remove="Resources\figletfonts\eftirobot.flf" />
+    <None Remove="Resources\figletfonts\eftitalic.flf" />
+    <None Remove="Resources\figletfonts\eftiwall.flf" />
+    <None Remove="Resources\figletfonts\eftiwater.flf" />
+    <None Remove="Resources\figletfonts\epic.flf" />
+    <None Remove="Resources\figletfonts\fender.flf" />
+    <None Remove="Resources\figletfonts\filter.flf" />
+    <None Remove="Resources\figletfonts\fire_font-k.flf" />
+    <None Remove="Resources\figletfonts\fire_font-s.flf" />
+    <None Remove="Resources\figletfonts\flipped.flf" />
+    <None Remove="Resources\figletfonts\flowerpower.flf" />
+    <None Remove="Resources\figletfonts\fourtops.flf" />
+    <None Remove="Resources\figletfonts\fraktur.flf" />
+    <None Remove="Resources\figletfonts\funface.flf" />
+    <None Remove="Resources\figletfonts\funfaces.flf" />
+    <None Remove="Resources\figletfonts\fuzzy.flf" />
+    <None Remove="Resources\figletfonts\georgi16.flf" />
+    <None Remove="Resources\figletfonts\Georgia11.flf" />
+    <None Remove="Resources\figletfonts\ghost.flf" />
+    <None Remove="Resources\figletfonts\ghoulish.flf" />
+    <None Remove="Resources\figletfonts\glenyn.flf" />
+    <None Remove="Resources\figletfonts\goofy.flf" />
+    <None Remove="Resources\figletfonts\gothic.flf" />
+    <None Remove="Resources\figletfonts\graceful.flf" />
+    <None Remove="Resources\figletfonts\gradient.flf" />
+    <None Remove="Resources\figletfonts\graffiti.flf" />
+    <None Remove="Resources\figletfonts\greek.flf" />
+    <None Remove="Resources\figletfonts\heart_left.flf" />
+    <None Remove="Resources\figletfonts\heart_right.flf" />
+    <None Remove="Resources\figletfonts\henry3d.flf" />
+    <None Remove="Resources\figletfonts\hex.flf" />
+    <None Remove="Resources\figletfonts\hieroglyphs.flf" />
+    <None Remove="Resources\figletfonts\hollywood.flf" />
+    <None Remove="Resources\figletfonts\horizontalleft.flf" />
+    <None Remove="Resources\figletfonts\horizontalright.flf" />
+    <None Remove="Resources\figletfonts\ICL-1900.flf" />
+    <None Remove="Resources\figletfonts\impossible.flf" />
+    <None Remove="Resources\figletfonts\invita.flf" />
+    <None Remove="Resources\figletfonts\isometric1.flf" />
+    <None Remove="Resources\figletfonts\isometric2.flf" />
+    <None Remove="Resources\figletfonts\isometric3.flf" />
+    <None Remove="Resources\figletfonts\isometric4.flf" />
+    <None Remove="Resources\figletfonts\italic.flf" />
+    <None Remove="Resources\figletfonts\ivrit.flf" />
+    <None Remove="Resources\figletfonts\jacky.flf" />
+    <None Remove="Resources\figletfonts\jazmine.flf" />
+    <None Remove="Resources\figletfonts\jerusalem.flf" />
+    <None Remove="Resources\figletfonts\katakana.flf" />
+    <None Remove="Resources\figletfonts\kban.flf" />
+    <None Remove="Resources\figletfonts\keyboard.flf" />
+    <None Remove="Resources\figletfonts\knob.flf" />
+    <None Remove="Resources\figletfonts\konto.flf" />
+    <None Remove="Resources\figletfonts\kontoslant.flf" />
+    <None Remove="Resources\figletfonts\larry3d.flf" />
+    <None Remove="Resources\figletfonts\lcd.flf" />
+    <None Remove="Resources\figletfonts\lean.flf" />
+    <None Remove="Resources\figletfonts\letters.flf" />
+    <None Remove="Resources\figletfonts\lildevil.flf" />
+    <None Remove="Resources\figletfonts\lineblocks.flf" />
+    <None Remove="Resources\figletfonts\linux.flf" />
+    <None Remove="Resources\figletfonts\lockergnome.flf" />
+    <None Remove="Resources\figletfonts\madrid.flf" />
+    <None Remove="Resources\figletfonts\marquee.flf" />
+    <None Remove="Resources\figletfonts\maxfour.flf" />
+    <None Remove="Resources\figletfonts\merlin1.flf" />
+    <None Remove="Resources\figletfonts\merlin2.flf" />
+    <None Remove="Resources\figletfonts\mike.flf" />
+    <None Remove="Resources\figletfonts\mini.flf" />
+    <None Remove="Resources\figletfonts\mirror.flf" />
+    <None Remove="Resources\figletfonts\mnemonic.flf" />
+    <None Remove="Resources\figletfonts\modular.flf" />
+    <None Remove="Resources\figletfonts\morse.flf" />
+    <None Remove="Resources\figletfonts\morse2.flf" />
+    <None Remove="Resources\figletfonts\moscow.flf" />
+    <None Remove="Resources\figletfonts\mshebrew210.flf" />
+    <None Remove="Resources\figletfonts\muzzle.flf" />
+    <None Remove="Resources\figletfonts\nancyj-fancy.flf" />
+    <None Remove="Resources\figletfonts\nancyj-improved.flf" />
+    <None Remove="Resources\figletfonts\nancyj-underlined.flf" />
+    <None Remove="Resources\figletfonts\nancyj.flf" />
+    <None Remove="Resources\figletfonts\nipples.flf" />
+    <None Remove="Resources\figletfonts\nscript.flf" />
+    <None Remove="Resources\figletfonts\ntgreek.flf" />
+    <None Remove="Resources\figletfonts\nvscript.flf" />
+    <None Remove="Resources\figletfonts\o8.flf" />
+    <None Remove="Resources\figletfonts\octal.flf" />
+    <None Remove="Resources\figletfonts\ogre.flf" />
+    <None Remove="Resources\figletfonts\oldbanner.flf" />
+    <None Remove="Resources\figletfonts\os2.flf" />
+    <None Remove="Resources\figletfonts\pawp.flf" />
+    <None Remove="Resources\figletfonts\peaks.flf" />
+    <None Remove="Resources\figletfonts\peaksslant.flf" />
+    <None Remove="Resources\figletfonts\pebbles.flf" />
+    <None Remove="Resources\figletfonts\pepper.flf" />
+    <None Remove="Resources\figletfonts\poison.flf" />
+    <None Remove="Resources\figletfonts\puffy.flf" />
+    <None Remove="Resources\figletfonts\puzzle.flf" />
+    <None Remove="Resources\figletfonts\pyramid.flf" />
+    <None Remove="Resources\figletfonts\rammstein.flf" />
+    <None Remove="Resources\figletfonts\rectangles.flf" />
+    <None Remove="Resources\figletfonts\red_phoenix.flf" />
+    <None Remove="Resources\figletfonts\relief.flf" />
+    <None Remove="Resources\figletfonts\relief2.flf" />
+    <None Remove="Resources\figletfonts\reverse.flf" />
+    <None Remove="Resources\figletfonts\roman.flf" />
+    <None Remove="Resources\figletfonts\rot13.flf" />
+    <None Remove="Resources\figletfonts\rotated.flf" />
+    <None Remove="Resources\figletfonts\rounded.flf" />
+    <None Remove="Resources\figletfonts\rowancap.flf" />
+    <None Remove="Resources\figletfonts\rozzo.flf" />
+    <None Remove="Resources\figletfonts\runic.flf" />
+    <None Remove="Resources\figletfonts\runyc.flf" />
+    <None Remove="Resources\figletfonts\s-relief.flf" />
+    <None Remove="Resources\figletfonts\santaclara.flf" />
+    <None Remove="Resources\figletfonts\sblood.flf" />
+    <None Remove="Resources\figletfonts\script.flf" />
+    <None Remove="Resources\figletfonts\serifcap.flf" />
+    <None Remove="Resources\figletfonts\shadow.flf" />
+    <None Remove="Resources\figletfonts\shimrod.flf" />
+    <None Remove="Resources\figletfonts\short.flf" />
+    <None Remove="Resources\figletfonts\slant.flf" />
+    <None Remove="Resources\figletfonts\slide.flf" />
+    <None Remove="Resources\figletfonts\slscript.flf" />
+    <None Remove="Resources\figletfonts\small.flf" />
+    <None Remove="Resources\figletfonts\smallcaps.flf" />
+    <None Remove="Resources\figletfonts\smisome1.flf" />
+    <None Remove="Resources\figletfonts\smkeyboard.flf" />
+    <None Remove="Resources\figletfonts\smpoison.flf" />
+    <None Remove="Resources\figletfonts\smscript.flf" />
+    <None Remove="Resources\figletfonts\smshadow.flf" />
+    <None Remove="Resources\figletfonts\smslant.flf" />
+    <None Remove="Resources\figletfonts\smtengwar.flf" />
+    <None Remove="Resources\figletfonts\soft.flf" />
+    <None Remove="Resources\figletfonts\speed.flf" />
+    <None Remove="Resources\figletfonts\spliff.flf" />
+    <None Remove="Resources\figletfonts\stacey.flf" />
+    <None Remove="Resources\figletfonts\stampate.flf" />
+    <None Remove="Resources\figletfonts\stampatello.flf" />
+    <None Remove="Resources\figletfonts\standard.flf" />
+    <None Remove="Resources\figletfonts\starstrips.flf" />
+    <None Remove="Resources\figletfonts\starwars.flf" />
+    <None Remove="Resources\figletfonts\stellar.flf" />
+    <None Remove="Resources\figletfonts\stforek.flf" />
+    <None Remove="Resources\figletfonts\stop.flf" />
+    <None Remove="Resources\figletfonts\straight.flf" />
+    <None Remove="Resources\figletfonts\sub-zero.flf" />
+    <None Remove="Resources\figletfonts\swampland.flf" />
+    <None Remove="Resources\figletfonts\swan.flf" />
+    <None Remove="Resources\figletfonts\sweet.flf" />
+    <None Remove="Resources\figletfonts\tanja.flf" />
+    <None Remove="Resources\figletfonts\tengwar.flf" />
+    <None Remove="Resources\figletfonts\term.flf" />
+    <None Remove="Resources\figletfonts\test1.flf" />
+    <None Remove="Resources\figletfonts\thick.flf" />
+    <None Remove="Resources\figletfonts\thin.flf" />
+    <None Remove="Resources\figletfonts\threepoint.flf" />
+    <None Remove="Resources\figletfonts\ticks.flf" />
+    <None Remove="Resources\figletfonts\ticksslant.flf" />
+    <None Remove="Resources\figletfonts\tiles.flf" />
+    <None Remove="Resources\figletfonts\tinker-toy.flf" />
+    <None Remove="Resources\figletfonts\tombstone.flf" />
+    <None Remove="Resources\figletfonts\train.flf" />
+    <None Remove="Resources\figletfonts\trek.flf" />
+    <None Remove="Resources\figletfonts\tsalagi.flf" />
+    <None Remove="Resources\figletfonts\tubular.flf" />
+    <None Remove="Resources\figletfonts\twisted.flf" />
+    <None Remove="Resources\figletfonts\twopoint.flf" />
+    <None Remove="Resources\figletfonts\univers.flf" />
+    <None Remove="Resources\figletfonts\usaflag.flf" />
+    <None Remove="Resources\figletfonts\varsity.flf" />
+    <None Remove="Resources\figletfonts\wavy.flf" />
+    <None Remove="Resources\figletfonts\weird.flf" />
+    <None Remove="Resources\figletfonts\wetletter.flf" />
+    <None Remove="Resources\figletfonts\whimsy.flf" />
+    <None Remove="Resources\figletfonts\wow.flf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Spectre.Console" Version="0.54.0" />
     <PackageReference Include="Spectre.Console.Cli" Version="0.53.1" />
     <PackageReference Include="TextCopy" Version="6.2.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <Resource Include="Resources\figletfonts\1row.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\3-d.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\3d_diagonal.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\3x5.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\4max.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\5lineoblique.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\acrobatic.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\alligator.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\alligator2.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\alligator3.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\alpha.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\alphabet.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\amc3line.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\amc3liv1.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\amcaaa01.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\amcneko.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\amcrazo2.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\amcrazor.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\amcslash.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\amcslder.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\amcthin.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\amctubes.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\amcun1.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\arrows.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\ascii_new_roman.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\avatar.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\B1FF.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\banner.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\banner3-D.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\banner3.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\banner4.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\barbwire.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\basic.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\bear.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\bell.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\benjamin.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\big.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\bigchief.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\bigfig.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\binary.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\block.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\blocks.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\bolger.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\braced.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\bright.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\broadway.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\broadway_kb.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\bubble.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\bulbhead.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\calgphy2.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\caligraphy.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\cards.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\catwalk.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\chiseled.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\chunky.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\coinstak.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\cola.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\colossal.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\computer.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\contessa.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\contrast.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\cosmic.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\cosmike.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\crawford.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\crazy.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\cricket.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\cyberlarge.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\cybermedium.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\cybersmall.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\cygnet.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\DANC4.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\dancingfont.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\decimal.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\defleppard.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\diamond.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\dietcola.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\digital.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\doh.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\doom.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\dosrebel.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\dotmatrix.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\double.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\doubleshorts.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\drpepper.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\dwhistled.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\eftichess.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\eftifont.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\eftipiti.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\eftirobot.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\eftitalic.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\eftiwall.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\eftiwater.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\epic.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\fender.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\filter.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\fire_font-k.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\fire_font-s.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\flipped.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\flowerpower.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\fourtops.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\fraktur.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\funface.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\funfaces.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\fuzzy.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\georgi16.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\Georgia11.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\ghost.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\ghoulish.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\glenyn.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\goofy.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\gothic.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\graceful.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\gradient.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\graffiti.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\greek.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\heart_left.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\heart_right.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\henry3d.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\hex.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\hieroglyphs.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\hollywood.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\horizontalleft.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\horizontalright.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\ICL-1900.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\impossible.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\invita.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\isometric1.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\isometric2.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\isometric3.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\isometric4.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\italic.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\ivrit.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\jacky.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\jazmine.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\jerusalem.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\katakana.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\kban.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\keyboard.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\knob.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\konto.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\kontoslant.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\larry3d.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\lcd.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\lean.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\letters.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\lildevil.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\lineblocks.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\linux.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\lockergnome.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\madrid.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\marquee.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\maxfour.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\merlin1.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\merlin2.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\mike.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\mini.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\mirror.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\mnemonic.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\modular.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\morse.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\morse2.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\moscow.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\mshebrew210.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\muzzle.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\nancyj-fancy.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\nancyj-improved.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\nancyj-underlined.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\nancyj.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\nipples.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\nscript.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\ntgreek.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\nvscript.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\o8.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\octal.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\ogre.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\oldbanner.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\os2.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\pawp.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\peaks.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\peaksslant.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\pebbles.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\pepper.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\poison.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\puffy.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\puzzle.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\pyramid.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\rammstein.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\rectangles.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\red_phoenix.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\relief.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\relief2.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\reverse.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\roman.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\rot13.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\rotated.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\rounded.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\rowancap.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\rozzo.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\runic.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\runyc.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\s-relief.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\santaclara.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\sblood.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\script.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\serifcap.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\shadow.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\shimrod.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\short.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\slant.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\slide.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\slscript.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\small.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\smallcaps.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\smisome1.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\smkeyboard.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\smpoison.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\smscript.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\smshadow.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\smslant.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\smtengwar.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\soft.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\speed.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\spliff.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\stacey.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\stampate.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\stampatello.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\standard.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\starstrips.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\starwars.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\stellar.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\stforek.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\stop.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\straight.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\sub-zero.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\swampland.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\swan.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\sweet.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\tanja.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\tengwar.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\term.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\test1.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\thick.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\thin.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\threepoint.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\ticks.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\ticksslant.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\tiles.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\tinker-toy.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\tombstone.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\train.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\trek.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\tsalagi.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\tubular.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\twisted.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\twopoint.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\univers.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\usaflag.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\varsity.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\wavy.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\weird.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\wetletter.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\whimsy.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\figletfonts\wow.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

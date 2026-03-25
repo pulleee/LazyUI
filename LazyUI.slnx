@@ -2,5 +2,6 @@
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
+  <Project Path="LazyUI.Sample/LazyUI.Sample.csproj" Id="926cdc86-0368-49ac-97fe-f08f83a337f6" />
   <Project Path="LazyUI/LazyUI.csproj" />
 </Solution>

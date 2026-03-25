@@ -33,7 +33,7 @@ public class InputPanel : IRenderable, IHasDirtyState
     {
         _dirty = false;
 
-        var markup = BuildInputMarkup();
+        var markup = buildInputMarkup();
         var panel = new Panel(Align.Left(new Markup(markup), VerticalAlignment.Middle));
         panel.Border = Border;
         panel.Padding = Padding;
@@ -71,16 +71,16 @@ public class InputPanel : IRenderable, IHasDirtyState
             case ConsoleKey.LeftArrow:
                 if (shift)
                 {
-                    EnsureAnchor();
+                    ensureAnchor();
                     if (_cursorPosition > 0) _cursorPosition--;
                 }
                 else
                 {
                     if (_selectionAnchor != null)
                     {
-                        var (s, _) = GetSelectionRange();
+                        var (s, _) = getSelectionRange();
                         _cursorPosition = s;
-                        ClearSelection();
+                        clearSelection();
                     }
                     else if (_cursorPosition > 0)
                         _cursorPosition--;
@@ -90,16 +90,16 @@ public class InputPanel : IRenderable, IHasDirtyState
             case ConsoleKey.RightArrow:
                 if (shift)
                 {
-                    EnsureAnchor();
+                    ensureAnchor();
                     if (_cursorPosition < _userInput.Length) _cursorPosition++;
                 }
                 else
                 {
                     if (_selectionAnchor != null)
                     {
-                        var (_, e) = GetSelectionRange();
+                        var (_, e) = getSelectionRange();
                         _cursorPosition = e;
-                        ClearSelection();
+                        clearSelection();
                     }
                     else if (_cursorPosition < _userInput.Length)
                         _cursorPosition++;
@@ -107,14 +107,14 @@ public class InputPanel : IRenderable, IHasDirtyState
                 break;
 
             case ConsoleKey.Home:
-                if (shift) EnsureAnchor();
-                else ClearSelection();
+                if (shift) ensureAnchor();
+                else clearSelection();
                 _cursorPosition = 0;
                 break;
 
             case ConsoleKey.End:
-                if (shift) EnsureAnchor();
-                else ClearSelection();
+                if (shift) ensureAnchor();
+                else clearSelection();
                 _cursorPosition = _userInput.Length;
                 break;
 
@@ -126,7 +126,7 @@ public class InputPanel : IRenderable, IHasDirtyState
             case ConsoleKey.C when ctrl:
                 if (_selectionAnchor != null)
                 {
-                    var (s, e) = GetSelectionRange();
+                    var (s, e) = getSelectionRange();
                     ClipboardService.SetText(_userInput[s..e]);
                 }
                 break;
@@ -138,7 +138,7 @@ public class InputPanel : IRenderable, IHasDirtyState
                     clip = new string(clip.Where(c => !char.IsControl(c)).ToArray());
                     if (_selectionAnchor != null)
                     {
-                        var (s, e) = GetSelectionRange();
+                        var (s, e) = getSelectionRange();
                         _userInput = _userInput[..s] + clip + _userInput[e..];
                         _cursorPosition = s + clip.Length;
                         _selectionAnchor = null;
@@ -154,7 +154,7 @@ public class InputPanel : IRenderable, IHasDirtyState
             case ConsoleKey.Backspace:
                 if (_selectionAnchor != null)
                 {
-                    DeleteSelection();
+                    deleteSelection();
                 }
                 else if (_cursorPosition > 0)
                 {
@@ -166,7 +166,7 @@ public class InputPanel : IRenderable, IHasDirtyState
             case ConsoleKey.Delete:
                 if (_selectionAnchor != null)
                 {
-                    DeleteSelection();
+                    deleteSelection();
                 }
                 else if (_cursorPosition < _userInput.Length)
                 {
@@ -179,7 +179,7 @@ public class InputPanel : IRenderable, IHasDirtyState
                 {
                     if (_selectionAnchor != null)
                     {
-                        var (s, e) = GetSelectionRange();
+                        var (s, e) = getSelectionRange();
                         _userInput = _userInput[..s] + key.KeyChar + _userInput[e..];
                         _cursorPosition = s + 1;
                         _selectionAnchor = null;
@@ -205,7 +205,7 @@ public class InputPanel : IRenderable, IHasDirtyState
         return Math.Max(1, lines);
     }
 
-    private (int start, int end) GetSelectionRange()
+    private (int start, int end) getSelectionRange()
     {
         if (_selectionAnchor == null) return (-1, -1);
 
@@ -215,9 +215,9 @@ public class InputPanel : IRenderable, IHasDirtyState
         return (Math.Min(a, b), Math.Max(a, b));
     }
 
-    private void DeleteSelection()
+    private void deleteSelection()
     {
-        var (start, end) = GetSelectionRange();
+        var (start, end) = getSelectionRange();
 
         if (start < 0) return;
 
@@ -226,17 +226,17 @@ public class InputPanel : IRenderable, IHasDirtyState
         _selectionAnchor = null;
     }
 
-    private void ClearSelection() => _selectionAnchor = null;
+    private void clearSelection() => _selectionAnchor = null;
 
-    private void EnsureAnchor()
+    private void ensureAnchor()
     {
         _selectionAnchor ??= _cursorPosition;
     }
 
-    private string BuildInputMarkup()
+    private string buildInputMarkup()
     {
         var sb = new StringBuilder();
-        var (selStart, selEnd) = GetSelectionRange();
+        var (selStart, selEnd) = getSelectionRange();
 
         sb.Append("[blue]> ");
         for (int i = 0; i <= _userInput.Length; i++)
